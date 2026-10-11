@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy for Drone Flight Toolkit</title>
-<meta name="description" content="Privacy Policy for Drone Flight Toolkit for the Drone Flight Toolkit Android app (io.github.ztel42.droneflighttoolkit).">
+<meta name="description" content="Privacy Policy for Drone Flight Toolkit for the Drone Flight Toolkit Android and iPhone apps (io.github.ztel42.droneflighttoolkit).">
 <style>
   :root { color-scheme: light dark; --fg:#1f2328; --muted:#59636e; --bg:#ffffff; --line:#d1d9e0; --accent:#0969da; --head:#f6f8fa; }
   @media (prefers-color-scheme: dark) { :root { --fg:#e6edf3; --muted:#9198a1; --bg:#0d1117; --line:#30363d; --accent:#4493f8; --head:#161b22; } }
@@ -28,27 +28,38 @@
 <body>
 <main>
 <h1>Privacy Policy for Drone Flight Toolkit</h1>
-<p><strong>Effective date:</strong> October 8, 2026<br />
-<strong>App:</strong> Drone Flight Toolkit for Android (package <code>io.github.ztel42.droneflighttoolkit</code>), version 1.3.0 and later, until this policy is updated. Version 1.1.0 added the optional Drone Flight Toolkit Pro subscription and Google's Play Billing Library; the parts about them are marked <strong>Pro</strong> or <strong>Google Play billing</strong>. Version 1.2.0 added the Pro custom checklist, which is stored only on your device. Version 1.2.1 lets anyone delete a saved custom checklist, with or without Pro. Version 1.3.0 added an About &amp; legal screen with open-source license notices.<br />
+<p><strong>Effective date:</strong> October 10, 2026<br />
+<strong>Apps covered:</strong></p>
+<ul>
+<li><strong>Drone Flight Toolkit for Android</strong> (package <code>io.github.ztel42.droneflighttoolkit</code>), version 1.3.0 and later. Version 1.1.0 added the optional Drone Flight Toolkit Pro subscription and Google's Play Billing Library. Version 1.2.0 added the Pro custom checklist, version 1.2.1 lets anyone delete a saved custom checklist, and version 1.3.0 added an About &amp; legal screen with open-source license notices.</li>
+<li><strong>Drone Flight Toolkit for iPhone</strong> (iOS, bundle ID <code>io.github.ztel42.droneflighttoolkit</code>), version 1.3.0 and later. It has the same features as the Android app; Pro is sold through Apple's App Store.</li>
+</ul>
+<p>This policy applies until it is updated. Where the two apps work differently, the difference is marked <strong>Android</strong> or <strong>iPhone</strong>. Everything not marked applies to both.<br />
 <strong>Developer:</strong> ztel42 (<a href="https://github.com/ztel42">https://github.com/ztel42</a>), an individual developer<br />
 <strong>Privacy contact:</strong> <a href="mailto:solinvicta4252@gmail.com">solinvicta4252@gmail.com</a><br />
-<strong>Policy URL:</strong> https://ztel42.github.io/drone-flight-toolkit/privacy-policy.html (also linked from the <strong>Privacy policy</strong> button on the app's Go/No-Go screen)</p>
-<p>This privacy policy explains what information Drone Flight Toolkit (the "app") accesses, where that information goes, and the choices you have. In this policy, "we", "us" and "the developer" mean ztel42, the developer named above and on the app's Google Play listing. If the app is later published by a business entity, this policy will be updated to name it.</p>
+<strong>Policy URL:</strong> <a href="https://ztel42.github.io/drone-flight-toolkit/privacy-policy.html">https://ztel42.github.io/drone-flight-toolkit/privacy-policy.html</a> (also linked from the <strong>Privacy policy</strong> button on the app's Go/No-Go screen, the <strong>About &amp; legal</strong> screen, and the <strong>iPhone</strong> Pro screen)</p>
+<p>This privacy policy explains what information Drone Flight Toolkit (the "app") accesses, where that information goes, and the choices you have. In this policy, "we", "us" and "the developer" mean ztel42, the developer named above and on the app's Google Play and App Store listings. If the app is later published by a business entity, this policy will be updated to name it.</p>
 <h2>1. Summary</h2>
 <ul>
-<li><strong>No ads, no accounts, no tracking.</strong> The app shows no advertising, has no sign-in and contains no advertising, analytics or crash-reporting SDKs (software development kits). It includes one Google SDK, the <strong>Play Billing Library</strong>, which is needed to offer Pro through Google Play. That library sends Google limited technical diagnostics about its own billing operations, such as whether a billing request succeeded, along with basic device information. This happens whenever the app checks your Pro status, even if you never buy Pro (Section 3.2). The app also includes the open-source <strong>AboutLibraries</strong> library, which only displays the license notices built into the app on its <strong>Open-source licenses</strong> screen. It works offline, makes no network connections, and collects no data.</li>
-<li><strong>The developer does not run any servers, and the app sends nothing to the developer.</strong> The one exception is limited transaction records that Google Play provides to the developer if you buy Pro (Section 4.4). The billing library's diagnostics go to Google, not to the developer.</li>
+<li><strong>No ads, no accounts, no tracking.</strong> The app shows no advertising, has no sign-in and contains no advertising, analytics or crash-reporting SDKs (software development kits). It does not track you across other companies' apps or websites.</li>
+<li><strong>The developer does not run any servers, and the app sends nothing to the developer.</strong> The one exception is limited transaction records that Google Play or Apple provides to the developer if you buy Pro (Section 4.4).</li>
+<li><strong>Android only: Google's billing library sends Google diagnostics.</strong> The Android app includes one Google SDK, the <strong>Play Billing Library</strong>, which is needed to offer Pro through Google Play. That library sends Google limited technical diagnostics about its own billing operations, such as whether a billing request succeeded, along with basic device information. This happens whenever the app checks your Pro status, even if you never buy Pro (Section 3.2.1). The Android app also includes the open-source <strong>AboutLibraries</strong> library, which only displays the license notices built into the app. It works offline, makes no network connections, and collects no data.</li>
+<li><strong>iPhone: no billing SDK and no diagnostics.</strong> The iPhone app uses StoreKit, which is part of iOS, to offer Pro through Apple's App Store. It contains no third-party SDKs or libraries, and the app's own code sends no diagnostics to anyone (Section 3.2.2).</li>
 <li><strong>Location is optional and approximate.</strong> The app asks for approximate location only when you tap <strong>Use my approximate location</strong>. It never asks for precise or background location.</li>
 <li><strong>Some data goes to U.S. government weather services.</strong> When you run a Go/No-Go check (<strong>Check conditions</strong>), the app requests public weather data from the National Oceanic and Atmospheric Administration (NOAA). If you entered or located a site position, that request includes a search area around that position, rounded to about 0.1° (roughly 11 km) first, so the exact position is not sent (see Section 3).</li>
-<li><strong>Pro (optional):</strong> the core app is free. That includes Go/No-Go safety checks, the default five-item pre-flight checklist, saving, sharing and deleting your logs, and viewing SRT flights. Pro is an optional auto-renewing monthly subscription (US$2.99/month in the U.S.) sold through Google Play. It adds GPX/KML/ASS telemetry export, CSV export of all checklist logs, aircraft/site quick-fill, and custom checklists. Google Play handles payment, and we never see your card or bank details (Section 4).</li>
-<li><strong>Everything else stays on your device</strong> unless you choose to share or export it.</li>
+<li><strong>Pro (optional):</strong> the core app is free. That includes Go/No-Go safety checks, the default five-item pre-flight checklist, saving, sharing and deleting your logs, and viewing SRT flights. Pro is an optional auto-renewing monthly subscription (US$2.99/month in the U.S.), sold through Google Play on Android and through the App Store on iPhone. It adds GPX/KML/ASS telemetry export, CSV export of all checklist logs, aircraft/site quick-fill, and custom checklists. Google or Apple handles payment, and we never see your card or bank details (Section 4).</li>
+<li><strong>Everything else stays on your device</strong> unless you choose to share or export it, or your device's own backup includes it (Section 3.5).</li>
 <li><strong>We do not sell your data</strong>, and we do not share it for advertising.</li>
 </ul>
 <h2>2. Information the app accesses and how it is used</h2>
 <h3>2.1 Approximate device location (optional)</h3>
 <ul>
-<li><strong>When:</strong> only after you tap <strong>Use my approximate location</strong> and grant Android's location permission (<code>ACCESS_COARSE_LOCATION</code>). The app does not request location at start-up, does not request precise location (<code>ACCESS_FINE_LOCATION</code>) and does not access location in the background.</li>
-<li><strong>What:</strong> a single approximate position. Android limits approximate location to roughly a 3 square kilometer area.</li>
+<li><strong>When:</strong> only after you tap <strong>Use my approximate location</strong> and grant location permission. The app does not request location at start-up, does not request precise location and does not access location in the background.<ul>
+<li><strong>Android:</strong> the app asks for approximate location (<code>ACCESS_COARSE_LOCATION</code>) only, never precise location (<code>ACCESS_FINE_LOCATION</code>). Android limits approximate location to roughly a 3 square kilometer area.</li>
+<li><strong>iPhone:</strong> the app asks for location access <strong>While Using the App</strong> only, never "Always". iOS offers approximate location by default for this app (Precise Location off), and the app itself requests only reduced accuracy. Even if you turn Precise Location on in Settings, the app still rounds the position before any weather request (below).</li>
+</ul>
+</li>
+<li><strong>What:</strong> a single approximate position.</li>
 <li><strong>How it is used:</strong> the position fills in the latitude and longitude fields on the Go/No-Go screen. When you run a check, the app uses the position <strong>as is, on your device</strong>, to compute sunrise, sunset and twilight times and to pick nearby weather stations. For the weather request to aviationweather.gov, the app first <strong>rounds it to the nearest 0.1°</strong> and sends only a search area around the rounded point (Section 3).</li>
 <li><strong>Storage:</strong> the position is kept only in the app's memory while the app is running. The app does not save it to storage.</li>
 </ul>
@@ -56,53 +67,61 @@
 <h3>2.2 Information you type in</h3>
 <ul>
 <li><strong>Go/No-Go:</strong> an ICAO weather station code (for example, KXMR), optional site latitude and longitude, and a "night = don't fly" setting. Coordinates you type are handled exactly like approximate location in Section 2.1: used unrounded on your device, and rounded to the nearest 0.1° before a search area around them is sent to aviationweather.gov when you run a check.</li>
-<li><strong>Checklist:</strong> item check marks, aircraft, site and notes, plus, with Pro, the items you write for a custom checklist. Anything you type in these fields stays on your device.</li>
+<li><strong>Checklist:</strong> item check marks, aircraft, site and notes, plus, with Pro, the items you write for a custom checklist. Anything you type in these fields stays on your device (on iPhone, some of it can be included in your own device backup; see Section 3.5.2).</li>
 </ul>
 <h3>2.3 Flight telemetry files you open</h3>
-<p>When you open a DJI <code>.SRT</code> flight log, you pick the file through Android's system file picker. The app can read only the file you choose and has no general storage permission. The file's contents, which can include the drone's GPS track, altitude, speed and timestamps, are processed in memory on your device. The app does not send the file anywhere. Viewing a flight is free. GPX, KML or ASS exports (<strong>Pro</strong>) are written only to a location you choose or sent to an app you pick from Android's share sheet.</p>
+<p>When you open a DJI <code>.SRT</code> flight log, you pick the file through the system file picker (<strong>Android:</strong> the system file picker; <strong>iPhone:</strong> the Files document picker). The app can read only the file you choose and has no general storage or photo-library permission. The file's contents, which can include the drone's GPS track, altitude, speed and timestamps, are processed in memory on your device. The app does not send the file anywhere. Viewing a flight is free. GPX, KML or ASS exports (<strong>Pro</strong>) are written only to a location you choose or sent to an app you pick from the share sheet.</p>
 <h3>2.4 Information the app saves on your device</h3>
-<p>The app saves the following in its private storage, which other apps cannot read:</p>
+<p>The app saves the following in its private storage (on iPhone, the app's sandbox), which other apps cannot read:</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Data</th>
+<th>Where (Android / iPhone)</th>
 <th>Why it is saved</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>The checklist in progress (check marks, aircraft, site, notes)</td>
+<td>App settings (Android: app preferences; iPhone: the app's <code>UserDefaults</code> settings)</td>
 <td>So your progress survives restarts</td>
 </tr>
 <tr>
-<td><strong>Pro:</strong> your custom checklist: whether it's on, the preset you started from, and your item texts (<code>checklist_logs/custom_checklist.json</code>). Its in-progress check marks are saved with the other app settings.</td>
+<td><strong>Pro:</strong> your custom checklist: whether it's on, the preset you started from, and your item texts. Its in-progress check marks are saved with the other app settings.</td>
+<td><code>checklist_logs/custom_checklist.json</code> (iPhone: in the app's Application Support folder)</td>
 <td>So your custom checklist is ready each time. A log saved from a custom checklist records those item names.</td>
 </tr>
 <tr>
 <td>Completed checklist logs: one JSON file per completion with the completion time (UTC and U.S. Eastern), aircraft, site, notes, item states and a randomly generated completion ID</td>
+<td><code>checklist_logs/</code> (iPhone: in the app's Application Support folder)</td>
 <td>So you keep a record of your pre-flight checks. You can delete any log in the app.</td>
 </tr>
 <tr>
 <td>The last ICAO station code you checked and your "night = don't fly" setting</td>
+<td>App settings</td>
 <td>Convenience</td>
 </tr>
 <tr>
 <td>A temporary copy of a file you shared: a telemetry export, or (<strong>Pro</strong>) the CSV export of all checklist logs</td>
+<td>Android: app cache; iPhone: the app's temporary folder (<code>tmp/exports</code>)</td>
 <td>Needed to hand the file to the app you picked. It is deleted automatically (see Section 6).</td>
 </tr>
 <tr>
-<td><strong>Pro:</strong> a small status file with only two values: whether Pro is active (yes or no) and when Google Play last confirmed it. No purchase token, order ID or payment details are saved.</td>
+<td><strong>Pro:</strong> a small status file with only two values: whether Pro is active (yes or no) and when Google Play or the App Store last confirmed it. No purchase token, transaction ID, order ID, receipt or payment details are saved.</td>
+<td>Android: <code>no_backup/pro_status.properties</code>; iPhone: <code>pro_status.json</code> in Application Support</td>
 <td>To decide whether to unlock Pro features, including briefly when you're offline (Section 4.3)</td>
 </tr>
 <tr>
-<td><strong>Google Play billing:</strong> the billing library's diagnostic messages waiting to be sent to Google (Section 3.2)</td>
-<td>Held briefly in the app's private storage until the library sends them to Google</td>
+<td><strong>Android only, Google Play billing:</strong> the billing library's diagnostic messages waiting to be sent to Google (Section 3.2.1)</td>
+<td>App-private storage</td>
+<td>Held briefly until the library sends them to Google</td>
 </tr>
 </tbody>
 </table></div>
 <p>The random completion ID only labels a checklist log. It is not linked to you, your device or any account.</p>
 <h3>2.5 What the app does not collect</h3>
-<p>The app does not access your camera, microphone, contacts, photos, calendar, SMS or call logs, and does not ask for your name or email address. It never sees your payment card or bank details. It does not read your advertising ID or any other device identifier. The app's own code does not gather analytics, usage statistics or crash reports. The only diagnostics that leave the app are the Google Play Billing Library's own diagnostics, sent to Google (Section 3.2).</p>
+<p>The app does not access your camera, microphone, contacts, photos, calendar, SMS or call logs, Bluetooth, or health data, and does not ask for your name or email address. It never sees your payment card or bank details. It does not read your advertising ID (Android advertising ID or iPhone IDFA) or any other device identifier, and it does not ask for permission to track you (the iPhone app has no App Tracking Transparency prompt because it does no tracking). The app's own code does not gather analytics, usage statistics or crash reports. On Android, the only diagnostics that leave the app are the Google Play Billing Library's own diagnostics, sent to Google (Section 3.2.1). On iPhone, the app sends no diagnostics. Separately from the app, Google and Apple may give the developer aggregated statistics and, if you agreed in your device settings, crash reports (Section 3.3).</p>
 <h2>3. Who receives data from the app</h2>
 <h3>3.1 NOAA weather services (when you run a Go/No-Go check)</h3>
 <p>The app connects directly from your device to these public U.S. government services over encrypted HTTPS:</p>
@@ -131,15 +150,16 @@
 </tbody>
 </table></div>
 <p>The search area is centered on the rounded position, so the service could work out roughly where your site is (to within about 0.1° of latitude and longitude, about 11 km or less) but not the exact coordinates. The unrounded coordinates are never sent. The station codes the app picks near your site also indicate the general area.</p>
-<p>As with any internet request, these services also receive your device's <strong>IP address</strong>, the time of the request, and the app's identifier (User-Agent) <code>DroneFlightToolkit/1.0 (Android; +https://github.com/ztel42/PythonCollection)</code>. The app does not send any account, name, device ID or advertising ID.</p>
+<p>As with any internet request, these services also receive your device's <strong>IP address</strong>, the time of the request, and the app's identifier (User-Agent): <code>DroneFlightToolkit/1.0 (Android; +https://github.com/ztel42/PythonCollection)</code> on Android, or <code>DroneFlightToolkit/1.0 (iOS; +https://github.com/ztel42/PythonCollection)</code> on iPhone. The app does not send any account, name, device ID or advertising ID. The iPhone app uses a connection that stores no cookies and keeps no response cache on disk.</p>
 <p>These services are not operated by the developer, and their own privacy policies apply. The National Weather Service states that it logs details of each web request (including the IP address and the item requested) and may keep those logs. See:</p>
 <ul>
 <li>National Weather Service privacy policy: <a href="https://www.weather.gov/privacy">https://www.weather.gov/privacy</a></li>
 <li>NOAA privacy policy: <a href="https://www.noaa.gov/protecting-your-privacy">https://www.noaa.gov/protecting-your-privacy</a></li>
 </ul>
 <p>The app is not affiliated with or endorsed by NOAA, the National Weather Service or the FAA.</p>
-<h3>3.2 Google Play billing (Google)</h3>
-<p>The app uses Google's <strong>Play Billing Library</strong> to offer Pro. Google operates Google Play and this library. Data reaches Google in two ways:</p>
+<h3>3.2 App store billing</h3>
+<h4>3.2.1 Android: Google Play billing (Google)</h4>
+<p>The Android app uses Google's <strong>Play Billing Library</strong> to offer Pro. Google operates Google Play and this library. Data reaches Google in two ways:</p>
 <ol>
 <li><strong>Through the Google Play app on your device.</strong> Each time you open or return to the app, it asks Google Play whether you have Pro. It also does this when you view or buy Pro, tap <strong>Restore purchases</strong>, or confirm (acknowledge) a new purchase, as Google requires. Google Play then contacts Google's servers under Google's own terms and privacy policy. If there is a problem with a renewal payment, the app may also let Google Play show its own message asking you to fix your payment method. Purchases themselves are handled by Google Play (Section 4).</li>
 <li><strong>Directly from the billing library: diagnostics.</strong> The billing library sends Google technical logs about its own operation, over encrypted HTTPS. Google says these logs give "insight into API usage (such as success and failure) and service connection issues" and that the information is used "to improve the performance of the Play Billing Library and provide better support for errors."<ul>
@@ -159,11 +179,20 @@
 </ul>
 </li>
 </ol>
-<p>The app's own code sends nothing to Google beyond the billing requests described above.</p>
-<h3>3.3 Apps and places you choose</h3>
+<p>The Android app's own code sends nothing to Google beyond the billing requests described above.</p>
+<h4>3.2.2 iPhone: Apple App Store (StoreKit)</h4>
+<p>The iPhone app offers Pro through Apple's in-app purchase system using <strong>StoreKit</strong>, which is part of iOS. The app contains <strong>no billing SDK</strong> and no other third-party code, and it sends <strong>no diagnostics</strong>.</p>
+<ul>
+<li>Each time you open or return to the app, it asks StoreKit on your device whether you have Pro. It also does this when you view or buy Pro, tap <strong>Restore Purchases</strong>, or open <strong>Manage Subscription</strong>. StoreKit, not the app, contacts Apple's servers when needed, under Apple's own terms and privacy policy.</li>
+<li>Apple handles the purchase itself, including your Apple Account, payment method and purchase history (Section 4).</li>
+<li>Apple's privacy policy: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+</ul>
+<h3>3.3 Statistics from Google Play and Apple</h3>
+<p>As with any app in their stores, Google Play and Apple give the developer statistics about the app through the Google Play Console and App Store Connect, such as numbers of installs, updates, sales and countries. These are generally aggregated and do not identify you. If you have chosen in your device settings to share usage and diagnostics data with app developers (<strong>Android:</strong> Google's usage and diagnostics setting; <strong>iPhone:</strong> <strong>Settings &gt; Privacy &amp; Security &gt; Analytics &amp; Improvements &gt; Share With App Developers</strong>), Google or Apple may also give the developer crash and performance reports for the app. These come from Google or Apple under their own policies, not from the app, and you can turn that sharing off in the same settings. We use them only to fix problems and improve the app.</p>
+<h3>3.4 Apps and places you choose</h3>
 <p>Data leaves the app in only two other ways, and only when you choose to:</p>
 <ul>
-<li><strong>Share:</strong> Android shows a share sheet, and the data goes to the app you pick, such as email or a messaging app. That app's privacy policy then applies. This happens when you:<ul>
+<li><strong>Share:</strong> the system share sheet appears, and the data goes to the app you pick, such as email or a messaging app (on iPhone, also AirDrop or Files). That app's privacy policy then applies. This happens when you:<ul>
 <li>share a checklist log;</li>
 <li>use <strong>Share report</strong> on a Go/No-Go result (the report can include your site coordinates as entered, not rounded);</li>
 <li>share a telemetry export (<strong>Pro</strong>); or</li>
@@ -172,36 +201,52 @@
 </li>
 <li><strong>Export:</strong> when you save a GPX, KML or ASS file, or the CSV of all logs (<strong>Pro</strong>), it is written to the location you choose.</li>
 </ul>
-<h3>3.4 Device-to-device transfer by Android</h3>
-<p>The app excludes its data from Android cloud backup. On Android 12 and later, if you use Android's device-to-device transfer while setting up a new phone, Android may copy your saved checklist logs, your <strong>Pro</strong> custom checklist (<code>custom_checklist.json</code>, which is stored with the logs), and app settings (checklist in progress, including custom-item check marks, last ICAO code, night setting) to the new device. The custom checklist is copied even if Pro isn't active. It is used only while Pro is active on the new device. You can delete it there at any time, with or without Pro (Section 6). Logs you have already deleted are not included. Location is never included because it is not saved. This transfer is handled by Android, and the data does not go to the developer. The Pro status file is never included in a backup or transfer; it is kept in a part of the app's storage that Android excludes, and the app's backup rules also exclude it. Your Pro subscription follows your Google account instead (Section 4.6).</p>
-<h3>3.5 No ads, no sale</h3>
-<p>The app contains no advertising and no advertising SDKs. We do not sell, rent or trade personal information, and we do not share it for advertising or cross-context behavioral advertising. If we are ever legally required to provide information, the only information we would have is what we hold directly: emails you send us and, if you bought Pro, the transaction records described in Section 4.4.</p>
+<h3>3.5 Backups and moving to a new device</h3>
+<p>Backups and device transfers are run by Google or Apple, not by the developer, and the data in them never goes to the developer. The two platforms work differently.</p>
+<h4>3.5.1 Android</h4>
+<p>The Android app excludes its data from Android cloud backup. On Android 12 and later, if you use Android's device-to-device transfer while setting up a new phone, Android may copy your saved checklist logs, your <strong>Pro</strong> custom checklist (<code>custom_checklist.json</code>, which is stored with the logs), and app settings (checklist in progress, including custom-item check marks, last ICAO code, night setting) to the new device. The custom checklist is copied even if Pro isn't active. It is used only while Pro is active on the new device. You can delete it there at any time, with or without Pro (Section 6). Logs you have already deleted are not included. Location is never included because it is not saved. The Pro status file is never included in a backup or transfer; it is kept in a part of the app's storage that Android excludes, and the app's backup rules also exclude it. Your Pro subscription follows your Google account instead (Section 4.6).</p>
+<h4>3.5.2 iPhone</h4>
+<ul>
+<li><strong>Excluded from backups:</strong> the app marks its <code>checklist_logs</code> folder (your saved checklist logs and your <strong>Pro</strong> custom checklist) and its Pro status file as excluded from backup. They are not included in iCloud Backup or in backups to a computer. iOS has no separate "transfer only" setting, so these files may not move to a new iPhone either. To keep your logs, share or save them (for example to Files) before you change phones.</li>
+<li><strong>Included in your device backup:</strong> the app's small settings (the checklist in progress, including custom-item check marks, aircraft, site and notes; the last ICAO code; and the night setting) are stored in the app's <code>UserDefaults</code>, like most apps' preferences. iOS includes them in your device backups: in <strong>iCloud Backup</strong>, if you have turned it on, and in backups you make to a computer. iCloud Backups are stored by Apple under your Apple Account and encrypted by Apple, under Apple's privacy policy. The developer has no access to your iCloud or computer backups.</li>
+<li><strong>Never backed up:</strong> temporary share copies (they are in the app's temporary folder) and your location (it is not saved).</li>
+<li>Your Pro subscription follows your Apple Account instead (Section 4.6).</li>
+</ul>
+<h3>3.6 No ads, no sale</h3>
+<p>The app contains no advertising and no advertising SDKs. We do not sell, rent or trade personal information, and we do not share it for advertising or cross-context behavioral advertising. If we are ever legally required to provide information, the only information we would have is what we hold directly: emails you send us, the statistics and reports described in Section 3.3, and, if you bought Pro, the transaction records described in Section 4.4.</p>
 <h2>4. Purchases and the Pro subscription (Pro)</h2>
 <h3>4.1 Free features and Pro</h3>
-<p><strong>Free for everyone:</strong> the Go/No-Go weather and safety check, the default five-item pre-flight checklist, saving, sharing and deleting individual checklist logs, and opening and viewing DJI SRT flights (track, HUD and stats).</p>
+<p><strong>Free for everyone:</strong> the Go/No-Go weather and safety check, the default five-item pre-flight checklist, saving, sharing and deleting individual checklist logs, deleting a saved custom checklist, and opening and viewing DJI SRT flights (track, HUD and stats).</p>
 <p><strong>Drone Flight Toolkit Pro</strong> is an optional, <strong>auto-renewing monthly subscription</strong>. It adds:</p>
 <ul>
 <li>saving and sharing flight tracks as GPX, KML and ASS (HUD subtitle) files;</li>
-<li>exporting all saved checklist logs as one CSV spreadsheet; and</li>
+<li>exporting all saved checklist logs as one CSV spreadsheet;</li>
 <li>one-tap aircraft and site quick-fill, using the aircraft and site names in your own saved logs (this happens on your device); and</li>
 <li>custom checklists: you can add, edit, reorder and remove items, or start from the Default, Recreational or Part 107 preset. Your custom checklist is stored only on your device. Presets are reminders only, not legal advice; see the Terms of Use.</li>
 </ul>
-<p>The price, billing period and renewal terms are shown in the app and on Google Play's purchase screen before you confirm. The U.S. price is US$2.99 per month. Prices in other countries are set in local currency and may include taxes. There is no free trial. The subscription renews automatically each month until you cancel.</p>
-<h3>4.2 Google Play processes your payment</h3>
-<p>Purchases are made with your Google account through Google Play's billing system. Google collects and processes your payment method, billing details and purchase records under its own terms and privacy policy:</p>
+<p>The price, billing period and renewal terms are shown in the app and on Google Play's or the App Store's purchase screen before you confirm. The U.S. price is US$2.99 per month. Prices in other countries are set in local currency and may include taxes. There is no free trial. The subscription renews automatically each month until you cancel. A subscription bought on Android does not unlock Pro on iPhone, or the other way around, because Google and Apple sell them separately.</p>
+<h3>4.2 Who processes your payment</h3>
 <ul>
+<li><strong>Android:</strong> purchases are made with your Google account through Google Play's billing system. Google collects and processes your payment method, billing details and purchase records under its own terms and privacy policy:<ul>
 <li>Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
 <li>Google Play Terms of Service: <a href="https://play.google.com/about/play-terms/">https://play.google.com/about/play-terms/</a></li>
 </ul>
+</li>
+<li><strong>iPhone:</strong> purchases are made with your Apple Account through the App Store. Payment is charged to your Apple Account when you confirm the purchase. Apple collects and processes your payment method, billing details and purchase records under its own terms and privacy policy:<ul>
+<li>Apple Privacy Policy: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+<li>Apple Media Services Terms and Conditions: <a href="https://www.apple.com/legal/internet-services/itunes/">https://www.apple.com/legal/internet-services/itunes/</a></li>
+</ul>
+</li>
+</ul>
 <p><strong>We never receive your card number, bank details or other payment credentials.</strong></p>
 <h3>4.3 What the app receives and keeps on your device</h3>
-<p>When you buy Pro, and each time the app checks your subscription, Google Play gives the app, on your device, the purchase record for this app's subscription. The record includes details such as the order ID and purchase time. The app uses only:</p>
+<p><strong>Android.</strong> When you buy Pro, and each time the app checks your subscription, Google Play gives the app, on your device, the purchase record for this app's subscription. The record includes details such as the order ID and purchase time. The app uses only:</p>
 <ul>
 <li>the product ID;</li>
 <li>the purchase state (purchased or pending);</li>
 <li>whether the subscription is on hold or paused;</li>
-<li>whether it is set to auto-renew; and</li>
-<li>whether the purchase has been acknowledged;</li>
+<li>whether it is set to auto-renew;</li>
+<li>whether the purchase has been acknowledged; and</li>
 <li>for a new purchase, the purchase token, which identifies the purchase.</li>
 </ul>
 <p>It uses these, in memory, only to:</p>
@@ -210,18 +255,32 @@
 <li>confirm (acknowledge) a new purchase back to Google Play, which Google requires; and</li>
 <li>show your subscription status and the <strong>Manage subscription</strong> option.</li>
 </ul>
-<p><strong>What the app saves:</strong> only two values, whether Pro is active and when Google Play last confirmed it. They are kept in a small file in the app's private storage (<code>no_backup/pro_status.properties</code>). The file is excluded from Android cloud backup and device-to-device transfer. The app does not save the purchase token, order ID or any payment details.</p>
-<p><strong>Offline use:</strong> the app re-checks with Google Play every time you open or return to it. If Google Play can't be reached, the app keeps Pro unlocked only if Google Play confirmed it within the last <strong>3 days</strong>. After that, Pro features stay locked until Google Play confirms your subscription again. Free features always keep working.</p>
-<p>The app does not send purchase details to the developer or to anyone other than Google Play. The developer does not run a server that receives or verifies purchases; your subscription is checked on your device with Google Play.</p>
-<h3>4.4 What the developer receives from Google</h3>
-<p>As the seller, the developer receives transaction records from Google through the Google Play Console. Depending on Google's reports, these can include:</p>
+<p><strong>iPhone.</strong> When you buy Pro, and each time the app checks your subscription, StoreKit gives the app, on your device, Apple-signed transaction and subscription information for this app's subscription. The app accepts only information that passes StoreKit's signature check. It uses only:</p>
 <ul>
+<li>the product ID;</li>
+<li>whether the transaction passed verification;</li>
+<li>whether you bought it or it is shared through Family Sharing (Pro is not available through Family Sharing);</li>
+<li>the expiration date, and any revocation (for example, after a refund);</li>
+<li>the subscription's renewal state (subscribed, in a billing grace period, in billing retry, expired or revoked) and whether it will auto-renew.</li>
+</ul>
+<p>It uses these, in memory, only to unlock or lock Pro features (never while a purchase is pending, for example awaiting Ask to Buy approval), to complete ("finish") verified transactions as StoreKit requires, and to show your subscription status and the <strong>Manage Subscription</strong> option.</p>
+<p><strong>What the app saves (both platforms):</strong> only two values, whether Pro is active and when Google Play or the App Store last confirmed it. They are kept in a small file in the app's private storage (Android: <code>no_backup/pro_status.properties</code>; iPhone: <code>pro_status.json</code>). The file is excluded from cloud backup and device transfer on Android, and from iCloud and computer backups on iPhone. The app does not save the purchase token, transaction ID, order ID, receipt or any payment details.</p>
+<p><strong>Offline use:</strong> the app re-checks every time you open or return to it. If Google Play or the App Store can't be reached, the app keeps Pro unlocked only if your subscription was confirmed within the last <strong>3 days</strong>. After that, Pro features stay locked until your subscription is confirmed again. Free features always keep working.</p>
+<p>The app does not send purchase details to the developer or to anyone other than Google Play or Apple. The developer does not run a server that receives or verifies purchases; your subscription is checked on your device with Google Play or StoreKit.</p>
+<h3>4.4 What the developer receives from Google or Apple</h3>
+<p>As the seller, the developer receives transaction records:</p>
+<ul>
+<li><strong>Android, through the Google Play Console.</strong> Depending on Google's reports, these can include:<ul>
 <li>the order number, the product, and the price and tax;</li>
 <li>the date and the status (for example, charged, refunded or canceled);</li>
 <li>the buyer's country and, where Google provides them, the buyer's state or province, city and postal code.</li>
 </ul>
-<p>Google does not give us your payment card details. We use these records only for accounting, tax, refunds, customer support, preventing abuse, and complying with law. We do not combine them with any other data about you, because we don't have any.</p>
+</li>
+<li><strong>iPhone, through App Store Connect.</strong> Apple's sales, subscription and financial reports show the product, units, prices, proceeds, dates, subscription events (for example, renewals, cancellations and refunds) and the country or region of sale. They generally do not identify individual customers, and Apple does not give us your name, email address or Apple Account.</li>
+</ul>
+<p>Neither Google nor Apple gives us your payment card details. We use these records only for accounting, tax, refunds, customer support, preventing abuse, and complying with law. We do not combine them with any other data about you, because we don't have any.</p>
 <h3>4.5 Managing, canceling and refunds</h3>
+<p><strong>Android:</strong></p>
 <ul>
 <li><strong>Manage or cancel:</strong><ul>
 <li>in the app, use <strong>Manage subscription</strong>; or</li>
@@ -232,9 +291,24 @@
 <li><strong>When cancellation takes effect:</strong> under Google Play's general policy, it takes effect at the end of the current billing period, and you keep Pro until then. Deleting the app or clearing its data does <strong>not</strong> cancel a subscription.</li>
 <li><strong>Refunds:</strong> refunds are handled under Google Play's refund policies and applicable law. You may also contact us at the address in Section 11.</li>
 </ul>
+<p><strong>iPhone:</strong></p>
+<ul>
+<li><strong>Manage or cancel:</strong><ul>
+<li>in the app, open the Pro screen and tap <strong>Manage Subscription</strong>; or</li>
+<li>open <strong>Settings</strong>, tap your name, then <strong>Subscriptions</strong>; or</li>
+<li>in the App Store app, tap your account picture, then <strong>Subscriptions</strong>.</li>
+</ul>
+</li>
+<li><strong>When cancellation takes effect:</strong> the subscription renews automatically unless you cancel at least 24 hours before the end of the current period. If you cancel, you keep Pro until the end of the period you paid for. Deleting the app does <strong>not</strong> cancel a subscription.</li>
+<li><strong>Refunds:</strong> App Store purchases are refunded by Apple, not by the developer. You can request a refund at <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a>. You may also contact us at the address in Section 11.</li>
+</ul>
 <h3>4.6 Restoring Pro</h3>
-<p>Your subscription is linked to the Google account you used to buy it. If you reinstall the app or move to a new device and sign in to Google Play with the same account, the app restores Pro by checking with Google Play.</p>
+<ul>
+<li><strong>Android:</strong> your subscription is linked to the Google account you used to buy it. If you reinstall the app or move to a new device and sign in to Google Play with the same account, the app restores Pro by checking with Google Play. You can also tap <strong>Restore purchases</strong>.</li>
+<li><strong>iPhone:</strong> your subscription is linked to the Apple Account you used to buy it. On a new iPhone, or after reinstalling the app, sign in with the same Apple Account; the app checks with the App Store automatically, and you can tap <strong>Restore Purchases</strong> on the Pro screen to sync your purchases with the App Store.</li>
+</ul>
 <h2>5. Permissions and your choices</h2>
+<h3>5.1 Android</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -261,12 +335,30 @@
 </tr>
 <tr>
 <td>View network connections (<code>ACCESS_NETWORK_STATE</code>)</td>
-<td>Added by Google's logging component, which the Play Billing Library uses. It lets that component check whether a network connection is available before sending the library's diagnostics to Google (Section 3.2). The app's own code does not use it. It does not give access to your location or to the content of your network traffic.</td>
+<td>Added by Google's logging component, which the Play Billing Library uses. It lets that component check whether a network connection is available before sending the library's diagnostics to Google (Section 3.2.1). The app's own code does not use it. It does not give access to your location or to the content of your network traffic.</td>
 <td>Granted at install; no prompt. It can't be turned off separately.</td>
 </tr>
 </tbody>
 </table></div>
-<p>To avoid sending any position to aviationweather.gov, leave the latitude and longitude fields empty and enter only an ICAO station code.</p>
+<h3>5.2 iPhone</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Why</th>
+<th>Your control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location, <strong>While Using the App</strong> (approximate by default)</td>
+<td>Optional. Fills in your site position when you tap <strong>Use my approximate location</strong>. The permission prompt explains that a search area around it, rounded to about 11 km, is sent to aviationweather.gov (NOAA) when you tap <strong>Check conditions</strong>, and that your location isn't saved or used in the background.</td>
+<td>Asked only when you tap the button. You can choose <strong>Don't Allow</strong>, keep <strong>Precise</strong> off, or change it later in <strong>Settings &gt; Privacy &amp; Security &gt; Location Services &gt; Drone Flight Toolkit</strong>.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The iPhone app asks for no other permissions. It does not use background location or any background modes, and it does not ask to track you. Internet access and in-app purchases need no separate permission on iPhone. Files are opened only through the Files picker you control.</p>
+<p><strong>Both platforms:</strong> to avoid sending any position to aviationweather.gov, leave the latitude and longitude fields empty and enter only an ICAO station code.</p>
 <h2>6. Data retention and deletion</h2>
 <div class="table-wrap"><table>
 <thead>
@@ -286,57 +378,63 @@
 </tr>
 <tr>
 <td>Checklist in progress, last ICAO code, night setting</td>
-<td>Your device (app-private storage)</td>
+<td>Your device (app settings). <strong>iPhone:</strong> also in your iCloud or computer backups, if you make them (Section 3.5.2)</td>
 <td>Until you delete it</td>
-<td>Use <strong>Reset checklist</strong> in the Checklist tab (clears the checklist in progress but keeps saved logs), or use Clear storage or uninstall (see below)</td>
+<td>Use <strong>Reset checklist</strong> in the Checklist tab (clears the checklist in progress but keeps saved logs). To delete all app data: <strong>Android:</strong> Clear storage or uninstall; <strong>iPhone:</strong> delete the app (see below). Copies in an existing iPhone backup stay until that backup is replaced or deleted.</td>
 </tr>
 <tr>
 <td><strong>Pro:</strong> custom checklist (item texts, preset, on/off)</td>
 <td>Your device (app-private storage, next to the logs)</td>
 <td>Until you delete it. It stays saved if Pro ends, but the app then uses the default checklist.</td>
-<td>Anyone, <strong>with or without Pro</strong>, can tap <strong>Delete custom checklist</strong> in the Checklist tab or the custom checklist editor and confirm. This permanently deletes the saved list and its check marks; the default checklist, your aircraft, site and notes, and your saved logs are not affected. While Pro is active you can also remove individual items in the editor. <strong>Reset checklist</strong> clears its check marks. Clear storage or uninstalling also removes it.</td>
+<td>Anyone, <strong>with or without Pro</strong>, can tap <strong>Delete custom checklist</strong> in the Checklist tab or the custom checklist editor and confirm. This permanently deletes the saved list and its check marks; the default checklist, your aircraft, site and notes, and your saved logs are not affected. While Pro is active you can also remove individual items in the editor. <strong>Reset checklist</strong> clears its check marks. Clearing storage (Android) or deleting the app also removes it.</td>
 </tr>
 <tr>
 <td>Saved checklist logs</td>
-<td>Your device (app-private storage)</td>
+<td>Your device (app-private storage; not in iPhone backups)</td>
 <td>Until you delete them</td>
-<td>Tap the <strong>delete</strong> button next to a log in the Checklist tab and confirm; the log is permanently removed from the app's storage. To remove all logs at once: <strong>Settings &gt; Apps &gt; Drone Flight Toolkit &gt; Storage &gt; Clear storage</strong>, or uninstall the app.</td>
+<td>Tap the <strong>delete</strong> button next to a log in the Checklist tab and confirm; the log is permanently removed from the app's storage. To remove all logs at once: <strong>Android:</strong> <strong>Settings &gt; Apps &gt; Drone Flight Toolkit &gt; Storage &gt; Clear storage</strong>, or uninstall the app; <strong>iPhone:</strong> delete the app.</td>
 </tr>
 <tr>
 <td>Temporary shared-export copy (telemetry exports and, for <strong>Pro</strong>, the CSV of all checklist logs)</td>
-<td>Your device (app cache, one shared temporary folder)</td>
-<td>Short-lived: deleted automatically before your next share and the next time the app starts (often sooner, when you leave the screen or the app is closed)</td>
-<td>Automatic; you can also use <strong>Clear cache</strong>, <strong>Clear storage</strong>, or uninstall</td>
+<td>Your device (one shared temporary folder: Android app cache; iPhone <code>tmp/exports</code>)</td>
+<td>Short-lived: replaced on your next share and deleted the next time the app starts (on Android often sooner, when you leave the screen or the app is closed; on iPhone also when the app goes to the background)</td>
+<td>Automatic. <strong>Android:</strong> you can also use <strong>Clear cache</strong>, <strong>Clear storage</strong>, or uninstall. <strong>iPhone:</strong> deleting the app also removes it.</td>
 </tr>
 <tr>
 <td><strong>Pro:</strong> Pro status file (active yes/no and last-confirmed time only)</td>
-<td>Your device (app-private storage that is never backed up or transferred)</td>
-<td>While the app is installed; rewritten each time Google Play confirms your status. A "Pro" status older than 3 days is not used offline.</td>
-<td><strong>Clear storage</strong> or uninstall. This removes only the local file; it does not cancel your subscription, and Pro is restored from Google Play the next time the app checks.</td>
+<td>Your device (app-private storage that is never backed up; on Android, also never transferred)</td>
+<td>While the app is installed; rewritten each time Google Play or the App Store confirms your status. A "Pro" status older than 3 days is not used offline.</td>
+<td><strong>Android:</strong> Clear storage or uninstall. <strong>iPhone:</strong> delete the app. This removes only the local file; it does not cancel your subscription, and Pro is restored the next time the app checks.</td>
 </tr>
 <tr>
-<td><strong>Google Play billing:</strong> diagnostics waiting to be sent</td>
+<td><strong>Android, Google Play billing:</strong> diagnostics waiting to be sent</td>
 <td>Your device (app-private storage)</td>
 <td>Until the billing library sends them to Google, usually shortly after they are created</td>
 <td><strong>Clear storage</strong> or uninstall</td>
 </tr>
 <tr>
-<td><strong>Google Play billing:</strong> diagnostics received by Google</td>
+<td><strong>Android, Google Play billing:</strong> diagnostics received by Google</td>
 <td>Google</td>
 <td>Under Google's privacy policy</td>
 <td>The developer cannot access or delete them. See your Google account controls and the Google Privacy Policy.</td>
 </tr>
 <tr>
-<td><strong>Pro:</strong> payment and purchase records held by Google</td>
-<td>Google</td>
-<td>Under Google's privacy policy</td>
-<td>Through your Google account and Google Play</td>
+<td><strong>Pro:</strong> payment and purchase records held by Google (Android) or Apple (iPhone)</td>
+<td>Google or Apple</td>
+<td>Under Google's or Apple's privacy policy</td>
+<td>Through your Google account and Google Play, or your Apple Account and Apple's privacy tools (<a href="https://privacy.apple.com">https://privacy.apple.com</a>)</td>
 </tr>
 <tr>
-<td><strong>Pro:</strong> transaction records in the developer's Google Play Console</td>
-<td>Google Play Console (accessed by the developer)</td>
+<td><strong>Pro:</strong> transaction records in the developer's Google Play Console or App Store Connect</td>
+<td>Google or Apple (accessed by the developer)</td>
 <td>As long as needed for tax, accounting and legal obligations (for example, several years for tax records)</td>
 <td>Email us. We will delete what we can, but we may need to keep records the law requires.</td>
+</tr>
+<tr>
+<td>Statistics and any crash reports from Google or Apple (Section 3.3)</td>
+<td>Google Play Console or App Store Connect</td>
+<td>Under Google's or Apple's retention rules</td>
+<td>Turn off sharing with app developers in your device settings. The developer cannot delete Google's or Apple's copies.</td>
 </tr>
 <tr>
 <td>Weather requests received by NOAA</td>
@@ -358,27 +456,29 @@
 </tr>
 </tbody>
 </table></div>
-<p>The developer does not run servers and does not hold the data the app processes on your device, so there is no server-side copy of it to delete. Because the app has no accounts, there is no app account to delete; your Google account is managed by Google.</p>
+<p><strong>Deleting the iPhone app:</strong> touch and hold the app icon, tap <strong>Remove App</strong>, then <strong>Delete App</strong> (or go to <strong>Settings &gt; General &gt; iPhone Storage &gt; Drone Flight Toolkit &gt; Delete App</strong>). This removes all of the app's data from the iPhone. <strong>Offload App</strong> does not delete the app's data. To delete app settings that are inside an iCloud Backup, delete or replace that backup in your iCloud settings.</p>
+<p>The developer does not run servers and does not hold the data the app processes on your device, so there is no server-side copy of it to delete. Because the app has no accounts, there is no app account to delete; your Google account and Apple Account are managed by Google and Apple.</p>
 <h2>7. How data is protected</h2>
 <ul>
-<li>All network connections use HTTPS (TLS). The app blocks unencrypted (cleartext) traffic and trusts only the device's system certificate authorities.</li>
-<li>Saved data stays in the app's private storage, which Android isolates from other apps. Files are shared only through Android's secure, temporary file-sharing mechanism when you choose to share them.</li>
-<li>The app requests the minimum permissions it needs: no precise or background location, and no broad storage access.</li>
+<li>All network connections use HTTPS (TLS). <strong>Android:</strong> the app blocks unencrypted (cleartext) traffic and trusts only the device's system certificate authorities. <strong>iPhone:</strong> the app uses Apple's App Transport Security with no exceptions, so unencrypted connections are not allowed.</li>
+<li>Saved data stays in the app's private storage, which Android and iOS isolate from other apps. Files are shared only through the system's share sheet or file picker, and only when you choose to.</li>
+<li>The app requests the minimum permissions it needs: no precise or background location, and no broad storage or photo-library access.</li>
 <li>Coordinates are rounded to the nearest 0.1° before any position-based weather request leaves your device.</li>
-<li>Payments are handled entirely by Google Play. The app never handles your payment credentials, and it saves no purchase token or order ID.</li>
-<li>The Play Billing Library sends its diagnostics to Google over HTTPS.</li>
-<li>The app is excluded from Android cloud backup. The Pro status file is also excluded from device-to-device transfer.</li>
+<li>Payments are handled entirely by Google Play or Apple. The app never handles your payment credentials, and it saves no purchase token, transaction ID or order ID. On iPhone, Pro is unlocked only by transactions that pass StoreKit's signature verification.</li>
+<li><strong>Android:</strong> the Play Billing Library sends its diagnostics to Google over HTTPS. The app is excluded from Android cloud backup, and the Pro status file is also excluded from device-to-device transfer.</li>
+<li><strong>iPhone:</strong> checklist logs, the custom checklist and the Pro status file are excluded from iCloud and computer backups.</li>
 </ul>
 <p>No method of storage or transmission is completely secure, but the app is designed to keep as little data as possible and to keep it on your device.</p>
 <h2>8. Children</h2>
-<p>The app is designed for drone pilots and is not directed at children under 13 (or the minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has sent us personal information, for example by email, or has bought Pro, contact us and we will delete what we hold where the law allows. Purchases by supervised accounts are subject to Google's family and parental controls.</p>
+<p>The app is designed for drone pilots and is not directed at children under 13 (or the minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has sent us personal information, for example by email, or has bought Pro, contact us and we will delete what we hold where the law allows. Purchases by supervised or family accounts are subject to Google's family and parental controls on Android, and to Apple's Family Sharing, Ask to Buy and Screen Time controls on iPhone.</p>
 <h2>9. International users and your privacy rights</h2>
-<p><strong>Where data goes.</strong> The weather services in Section 3 are located in the United States. If you use the app outside the United States, running a check sends the information described in Section 3 directly from your device to those U.S. services. Google may process purchase data and billing-library diagnostics in the United States and other countries under its own policies.</p>
+<p><strong>Where data goes.</strong> The weather services in Section 3 are located in the United States. If you use the app outside the United States, running a check sends the information described in Section 3 directly from your device to those U.S. services. Google and Apple may process purchase data, and Google may process billing-library diagnostics, in the United States and other countries under their own policies.</p>
 <p><strong>European Economic Area, United Kingdom and Switzerland.</strong> To the extent the GDPR, UK GDPR or Swiss data protection law applies:</p>
 <ul>
-<li><strong>Weather checks:</strong> the app processes location and coordinates only to provide the weather check you request (performing the service you asked for). For device location, it does so only after you give permission through Android, which you can withdraw at any time.</li>
+<li><strong>Weather checks:</strong> the app processes location and coordinates only to provide the weather check you request (performing the service you asked for). For device location, it does so only after you give permission through Android or iOS, which you can withdraw at any time.</li>
 <li><strong>Pro transaction records (Section 4.4):</strong> we process these to perform our contract with you and to meet legal obligations such as tax and accounting.</li>
-<li><strong>Google Play billing (Section 3.2):</strong> we include Google's Play Billing Library because it is required to offer purchases through Google Play, which is in our legitimate interest and needed to provide Pro if you buy it. Google processes the library's diagnostics under its own privacy policy.</li>
+<li><strong>Android, Google Play billing (Section 3.2.1):</strong> we include Google's Play Billing Library because it is required to offer purchases through Google Play, which is in our legitimate interest and needed to provide Pro if you buy it. Google processes the library's diagnostics under its own privacy policy.</li>
+<li><strong>Statistics and crash reports from Google or Apple (Section 3.3):</strong> we receive these only if you agreed in your device settings, and we use them to fix problems in the app.</li>
 <li><strong>Your rights:</strong> you have rights to access, correct, delete, restrict or object to processing of your personal data, to data portability, and to lodge a complaint with your local data protection authority (in the UK, the Information Commissioner's Office).</li>
 <li><strong>How to exercise them:</strong> you can exercise most of these rights directly on your device (Section 6). For anything else, contact us.</li>
 </ul>
@@ -391,10 +491,10 @@
 <p>Residents of other U.S. states with privacy laws may contact us in the same way.</p>
 <p><strong>Do Not Track.</strong> The app does not track you across other apps or websites, so it does not change its behavior in response to "Do Not Track" or similar browser signals.</p>
 <h2>10. Changes to this policy</h2>
-<p>If the app's data practices change, for example if a new feature, service or SDK is added, we will update this policy, post the new version at the same URL (https://ztel42.github.io/drone-flight-toolkit/privacy-policy.html) and change the effective date above. If a change materially expands what data is collected or shared, we will also give notice in the app or on its Google Play listing before the change takes effect.</p>
+<p>If the app's data practices change, for example if a new feature, service or SDK is added, we will update this policy, post the new version at the same URL (<a href="https://ztel42.github.io/drone-flight-toolkit/privacy-policy.html">https://ztel42.github.io/drone-flight-toolkit/privacy-policy.html</a>) and change the effective date above. If a change materially expands what data is collected or shared, we will also give notice in the app or on its Google Play or App Store listing before the change takes effect.</p>
 <h2>11. Contact</h2>
 <p>For questions or requests about this privacy policy, your data or a Pro purchase, email <strong><a href="mailto:solinvicta4252@gmail.com">solinvicta4252@gmail.com</a></strong> (developer: ztel42, <a href="https://github.com/ztel42">https://github.com/ztel42</a>). We aim to reply within 30 days.</p>
-<footer>Drone Flight Toolkit · Privacy Policy · Effective October 8, 2026</footer>
+<footer>Drone Flight Toolkit · Privacy Policy · Effective October 10, 2026</footer>
 </main>
 </body>
 </html>
